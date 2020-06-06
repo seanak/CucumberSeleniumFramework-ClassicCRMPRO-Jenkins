@@ -1,4 +1,4 @@
-package stepDefination;
+package stepDefinition;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 
 
-public class LoginStepDefination {
+public class LoginStepDefinition {
 
 	WebDriver driver;
 	

@@ -1,4 +1,4 @@
-package stepDefination;
+package stepDefinition;
 
 
 import org.junit.Assert;
@@ -14,7 +14,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ContactsSpepDefination {
+public class ContactsStepDefinition {
 	WebDriver driver;
 	
 	@Given("^user is already on login page of CRM$")
