@@ -15,6 +15,14 @@ import cucumber.api.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ContactsStepDefinition {
+	/**
+	 * @author seana
+	 * In this class you can see entering login data and entering other data- methods using Examples ref. contacts.feature
+	 * @see ContactsStepDefinition #user_enters_and(String, String)
+	 * @see ContactsStepDefinition #user_enters_contact_details_and_and(String, String, String)
+	 * 
+	 */
+	
 	WebDriver driver;
 	
 	@Given("^user is already on login page of CRM$")

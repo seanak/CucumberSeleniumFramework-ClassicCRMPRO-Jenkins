@@ -14,6 +14,12 @@ import org.junit.Assert;
 
 
 public class LoginStepDefinition {
+	
+	/**
+	 * @author seana
+	 * In this class you can see entering single login data without Examples ref. login.feature
+	 * see #user_enters_and(String, String
+	 */
 
 	WebDriver driver;
 	

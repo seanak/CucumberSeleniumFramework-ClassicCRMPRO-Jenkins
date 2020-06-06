@@ -1,34 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="69.63161">
-<testcase classname="Free CRM create contacts Feature" name="Free CRM create new contact scenario" time="25.335539">
-<system-out><![CDATA[Given user is already on login page of CRM..................................passed
-When title of the page is CRMPRO............................................passed
-Then user entering "Apptrix" and "Test@123".................................passed
-Then user clicks on login button of CRMPRO..................................passed
-Then user is on home page of CRMPRO.........................................passed
-Then user moves to new contact page.........................................passed
-Then user enters contact details "Toonie" and "lia" and "Manager"...........passed
-Then Close the browser of contacts page.....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM create contacts Feature" name="Free CRM create new contact scenario 2" time="27.561239">
-<system-out><![CDATA[Given user is already on login page of CRM..................................passed
-When title of the page is CRMPRO............................................passed
-Then user entering "Apptrix" and "Test@123".................................passed
-Then user clicks on login button of CRMPRO..................................passed
-Then user is on home page of CRMPRO.........................................passed
-Then user moves to new contact page.........................................passed
-Then user enters contact details "Sweety" and "Dsouza" and "Director".......passed
-Then Close the browser of contacts page.....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="16.734832">
-<system-out><![CDATA[Given user is already on Login Page.........................................passed
-When title of login page is Free CRM........................................passed
-Then user enters "Apptrix" and "Test@123"...................................passed
-Then user clicks on login button............................................passed
-Then user is on home page...................................................passed
-Then Close the browser......................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="36.101135">
+<testcase classname="Free CRM Deals Feature" name="Free CRM Deals Test Scenario" time="36.101135">
+<system-out><![CDATA[Given user is already on Login Page for deals test..........................passed
+When title of login page is Free CRM for deals test.........................passed
+Then user enters username and password for deals test.......................passed
+Then user clicks on login button for deals test.............................passed
+Then user is on home page for deals test....................................passed
+Then user moves to new deals page...........................................passed
+Then user enters deals details..............................................passed
+Then Close the browser of deals page........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
