@@ -19,8 +19,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DealsStepDefinition {
 	/**
 	 * @author seana
-	 * In this class you can see entering login data and entering other data- methods using DataTable ref. deals.feature
-	 * @see #user_enters_username_and_password_for_deals_test(DataTable)
+	 * In this class we used List object with DataTable
+	 * You can see entering login data and entering other data- methods using DataTable ref. deals.feature
+	 * @see #user_enters_username_a.nd_password_for_deals_test(DataTable)
 	 * @see #user_enters_deals_details(DataTable)
 	 */
 	
